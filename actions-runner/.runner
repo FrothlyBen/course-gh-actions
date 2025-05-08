@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "MangoToad",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus13.actions.githubusercontent.com/Wo31sazzW2PdHtNKOnTQUMdKzDrqXHaVPZ4aZOzm9oCQjy3ME6/",
+  "gitHubUrl": "https://github.com/FrothlyBen/course-gh-actions",
+  "workFolder": "_work"
+}

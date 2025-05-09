@@ -26,7 +26,7 @@ jobs:
                 registry: ghcr.io
                 username: ${{ github.repository_owner }}
                 password: ${{ secrets.GITHUB_TOKEN }}
-            - run: docker tag upper ghcr.io/FrothlyBen/upper:latest
-            - run: docker tag upper ghcr.io/FrothlyBen/upper:${{ github.ref_name }}
-            - run: docker push ghcr.io/FrothlyBen/upper:latest
-            - run: docker push ghcr.io/FrothlyBen/upper:${{ github.ref_name }}
+            - run: docker tag upper ghcr.io/frothlyben/upper:latest
+            - run: docker tag upper ghcr.io/frothlyben/upper:${{ github.ref_name }}
+            - run: docker push ghcr.io/frothlyben/upper:latest
+            - run: docker push ghcr.io/frothlyben/upper:${{ github.ref_name }}
